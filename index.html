@@ -5,25 +5,61 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Thomas A. Anderson</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
-		<div class="wrapper">
-			<nav>
-				<div class="logo"></div>
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+			<a href="#home" class="active">Logo</a>
+			<div id="myLinks">
+				<a href="index.html">start</a>
+				<a href="inMatrix.html">sub1</a>
+				<a href="outMatrix.html">sub2</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
 
-				<ul>
-					<li><a href="index.html">start</a></li>
-					<li><a href="inMatrix.html">sub1</a></li>
-					<li><a href="outMatrix.html">sub2</a></li>
-				</ul>
-			</nav>
-			<div class="hero"><img src="images/matrix-t-anderson.png" alt="" /></div>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+
+		<div class="wrapper">
+			<div class="hero">
+				<img
+					src="images/matrix-t-anderson.png"
+					alt="headshot-of-thomas-A-Anderson"
+				/>
+			</div>
 			<div class="intro">
 				<h1>Thomas A. Anderson</h1>
 				<h2>Software engeneer</h2>
 				<p>
 					Thomas A. Anderson, software developer by day... but Neo, the One, by
 					fate.
+				</p>
+				<p class="self-introduction">
+					My name is Thomas A. Anderson. I’m a software developer by profession,
+					working tirelessly to build secure, efficient systems for Metacortex
+					Corporation. By day, I navigate the predictable rhythms of corporate
+					life—deadlines, meetings, and lines of code. But by night, I am Neo.
+					Neo is more than a name; it’s a question—a pursuit. In the quiet
+					hours, I search for answers in the vast expanse of the digital world,
+					peeling back layers of the system we all live in. It’s a journey
+					that’s led me to explore the boundaries of technology, truth, and
+					reality itself. This is my story—a blend of logic and rebellion, code
+					and chaos. Step inside, and see the world through my eyes
 				</p>
 			</div>
 
@@ -42,6 +78,7 @@
 					</li>
 					<p></p>
 				</ul>
+				<a href="#" class="more">Learn more</a>
 			</div>
 
 			<div class="work">
