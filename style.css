@@ -35,6 +35,7 @@
 .active {
 	background-color: #03a062;
 	color: white;
+	font-family: orbitron, sans-serif;
 }
 /* toevoegen van een hamburger menu (	 END 	)*/
 
@@ -83,7 +84,9 @@ a {
 	text-align: center;
 }
 
-.self-introduction {
+p {
+	font-size: 14px;
+	margin: 0 50px;
 	text-align: left;
 }
 
@@ -117,9 +120,46 @@ p,
 	display: block;
 	text-align: center;
 }
+
 .wrapper a:hover {
 	background-color: #138658;
 	padding: 18px;
+}
+footer {
+	padding-top: 46px;
+	margin-top: 20px;
+	background-color: #3b673f;
+	padding-bottom: 34px;
+}
+
+footer a {
+	color: white;
+	background-color: #03a062;
+	padding: 15px;
+	/* border: 1px solid #1e403b; */
+	border-radius: 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	transform: translateY(0);
+}
+
+footer a:hover {
+	background-color: #138658;
+	transform: translateY(-5px);
+	transition: 0.5s;
+	animation-timing-function: ease-out;
+}
+
+.center {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex {
+	display: flex;
+	gap: 20px;
 }
 
 @media (min-width: 480px) {
@@ -139,6 +179,13 @@ p,
 
 	.wrapper a {
 		display: inline-block;
-		margin: calc(50%-36px), 0;
+	}
+	.more {
+		margin-left: 25px;
+	}
+
+	footer a {
+		display: inline-block;
+		margin-left: calc(33.33333% -130px);
 	}
 }
