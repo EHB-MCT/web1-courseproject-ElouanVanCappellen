@@ -110,6 +110,14 @@ p,
 	margin-bottom: 40px;
 }
 
+.text p {
+	margin-top: 50px;
+}
+
+.white-rabbit {
+	padding: 0;
+}
+
 .wrapper a {
 	color: white;
 	background-color: #03a062;
@@ -182,6 +190,10 @@ footer a:hover {
 	}
 	.more {
 		margin-left: 25px;
+	}
+
+	.white-rabbit {
+		padding: 0 100px;
 	}
 
 	footer a {

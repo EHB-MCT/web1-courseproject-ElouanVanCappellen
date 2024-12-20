@@ -3,20 +3,117 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>inside the matrix</title>
+		<title>Thomas A. Anderson</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
-		<div class="wrapper">
-			<div class="navigation">
-				<div class="logo"></div>
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+			<a href="index.html" class="active" target="">The Matrix</a>
+			<div id="myLinks">
+				<a href="index.html">start</a>
+				<a href="inMatrix.html">skills</a>
+				<a href="outMatrix.html">mission</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
 
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+
+		<div class="wrapper">
+			<div class="hero">
+				<img src="images/begin-neo.png" alt="headshot-of-thomas-A-Anderson" />
+			</div>
+			<div class="intro">
+				<h1>Thomas A. Anderson</h1>
+				<h2>Software engeneer</h2>
+				<p>
+					Thomas A. Anderson, software developer by day... but Neo, the One, by
+					fate.
+				</p>
+				<p class="self-introduction">
+					My name is Thomas A. Anderson. By day, I’m a software developer at
+					Metacortex Corporation, writing code and chasing deadlines. By night,
+					I’m Neo—a seeker of truth, exploring the hidden layers of the digital
+					world. This is the story of who I am, and who I’m becoming. Step
+					inside, and see the world through my eyes.
+				</p>
+			</div>
+
+			<div class="studies">
+				<h2>Education</h2>
 				<ul>
-					<li><a href="index.html">start</a></li>
-					<li><a href="inMatrix.html">sub1</a></li>
-					<li><a href="outMatrix.html">sub2</a></li>
+					<li>
+						<h3>
+							Bachelor of Science in Computer Science (Stanford, Graduation:
+							1995)
+						</h3>
+					</li>
+					<p></p>
+					<li>
+						<h3>Self-Taught Expertise in Hacking and Network Security</h3>
+					</li>
+					<p></p>
+				</ul>
+				<a href="#" class="more">Learn more</a>
+			</div>
+
+			<div class="work">
+				<h2>Work experience</h2>
+				<ul>
+					<li><h3>Metacortex Corporation</h3></li>
+					<p>Role: Senior Software Developer</p>
+					<p>Tenure: 1995 - 1999</p>
+
+					<li><h3>Freelance Hacker (Independent Contractor)</h3></li>
+					<p>Alias: Neo</p>
+					<p>Duration: 1996 - 1999</p>
 				</ul>
 			</div>
+			<div class="text">
+				<h2>The white rabbit</h2>
+				<div class="white-rabbit">
+					<img src="images/white-rabbit-cropped.png" alt="" />
+				</div>
+				<p>
+					My life has always been defined by a nagging sense of doubt—a quiet
+					but persistent feeling that something about the world he inhabits
+					isn’t quite right. By day, I immerses myself in the logical precision
+					of software development, but at night, my mind wanders to unanswerable
+					questions. It’s in those late hours, amidst the glow of my computer
+					screen, that the mysteries of the digital world whisper to me. One
+					night, a cryptic message leads me to follow "the white rabbit," a
+					symbol that reignites my search for truth. This small, seemingly
+					insignificant choice becomes the turning point where my doubts and
+					questions collide with a reality far stranger—and more dangerous—than
+					I could have ever imagined.
+				</p>
+			</div>
 		</div>
+		<footer>
+			<!-- <h2>Contact</h2> -->
+			<div class="center">
+				<div class="flex">
+					<a class="contact" href="#">CONTACT ME</a>
+					<a class="mission" href="#">MY MISSION</a>
+					<a class="skills" href="#">MY SKILLS</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
