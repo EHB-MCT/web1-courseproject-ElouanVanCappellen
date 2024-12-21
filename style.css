@@ -55,6 +55,7 @@ h2 {
 
 	/* for the mobile version */
 	text-align: center;
+	margin: 50px 0;
 }
 
 h1,
@@ -127,12 +128,28 @@ p,
 	text-decoration: none;
 	display: block;
 	text-align: center;
+	margin-top: 80px;
 }
 
 .wrapper a:hover {
 	background-color: #138658;
-	padding: 18px;
+	padding: 15px;
 }
+
+.studies h3 {
+	text-align: center;
+}
+
+.powers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.powers h3 {
+	text-align: center;
+}
+
 footer {
 	padding-top: 46px;
 	margin-top: 20px;
@@ -171,6 +188,14 @@ footer a:hover {
 }
 
 @media (min-width: 480px) {
+	.lists {
+		margin-left: 40px;
+	}
+
+	h2 {
+		margin: 100px 0;
+	}
+
 	.topnav a {
 		display: inline-block;
 		margin-right: 40px;
@@ -187,9 +212,20 @@ footer a:hover {
 
 	.wrapper a {
 		display: inline-block;
+		margin-left: 60px;
+		margin-top: 40px;
 	}
+
+	.studies h3 {
+		text-align: left;
+	}
+
 	.more {
 		margin-left: 25px;
+	}
+
+	.powers {
+		width: 48%;
 	}
 
 	.white-rabbit {
