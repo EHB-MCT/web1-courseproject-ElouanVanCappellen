@@ -233,17 +233,17 @@ footer a:hover {
 		width: 90%;
 	}
 
-	.studies {
+	.choice {
 		display: flex;
 		justify-content: space-around;
 	}
 
-	.work {
+	.reality {
 		display: flex;
 		justify-content: space-around;
 	}
 
-	.text {
+	.machine {
 		display: flex;
 		justify-content: space-around;
 	}
