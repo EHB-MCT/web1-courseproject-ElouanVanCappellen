@@ -93,6 +93,7 @@ p {
 
 .hero {
 	align-self: center;
+	width: 100%;
 }
 
 img {
@@ -224,7 +225,34 @@ footer a:hover {
 		margin-left: 25px;
 	}
 
+	.main-list {
+		margin-top: 80px;
+	}
+
+	.mission-with {
+		width: 90%;
+	}
+
+	.studies {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.work {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.text {
+		display: flex;
+		justify-content: space-around;
+	}
+
 	.powers {
+		width: 100%;
+	}
+
+	.powers div {
 		width: 48%;
 	}
 
